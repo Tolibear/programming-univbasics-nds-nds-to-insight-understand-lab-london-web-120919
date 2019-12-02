@@ -8,7 +8,7 @@ def pretty_print_nds(nds)
   pp nds
 end
 
-def print_first_directors_movie_titles(director)
+def print_first_directors_movie_titles
   movie_index = 0
   spielberg_movies = directors_database[0][:movies]
 
